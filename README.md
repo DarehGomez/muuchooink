@@ -17,5 +17,3 @@ El proyecto se basó en un repositorio público de referencia, al cual se le rea
 
 ### Créditos
 Proyecto realizado por estudiantes universitarios, con base en conocimientos adquiridos en el área de desarrollo de software. Adaptado y mejorado para la empresa **MUUCHO OINK**, garantizando un enfoque original y profesional.  
-
-¿Quieres que te prepare también una **versión en inglés** para que tu repositorio tenga presentación internacional?
