@@ -1,19 +1,27 @@
+"""
+Configuración general de la aplicación.
+
+Este módulo centraliza las rutas de los recursos utilizados por el
+sistema, como la base de datos, el esquema SQL, los íconos y las
+imágenes empleadas en la interfaz gráfica.
+"""
+
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent 
+# Directorio raíz del proyecto.
+BASE_DIR = Path(__file__).resolve().parent
 
-DB_PATH = BASE_DIR / 'database' / 'data' / 'punto_venta.db'
+# Ruta de la base de datos SQLite.
+DB_PATH = BASE_DIR / "database" / "data" / "punto_venta.db"
 
-SCHEMA_PATH = BASE_DIR / 'database' / 'schema.sql'
+# Ruta del archivo que contiene el esquema de la base de datos.
+SCHEMA_PATH = BASE_DIR / "database" / "schema.sql"
 
-
-# Ruta de ímagenes
-ICON_PATH = BASE_DIR / 'assets' / 'icons'/ 'pos-icon.ico'
-
-# Ruta de la imagen de login
+# Recursos gráficos de la aplicación.
+ICON_PATH = BASE_DIR / "assets" / "icons" / "pos-icon.ico"
 IMAGE_POST = BASE_DIR / "assets" / "images" / "pos-image.png"
 
-ADMIN_IMG = BASE_DIR / 'assets' / 'images' / 'admin.png'
-VENTAS_IMG = BASE_DIR / 'assets' / 'images' / 'ventas.png'
-ALMACEN_IMG = BASE_DIR / 'assets' / 'images' / 'almacen.png'
-
+# Imágenes utilizadas en el panel principal.
+ADMIN_IMG = BASE_DIR / "assets" / "images" / "admin.png"
+VENTAS_IMG = BASE_DIR / "assets" / "images" / "ventas.png"
+ALMACEN_IMG = BASE_DIR / "assets" / "images" / "almacen.png"
